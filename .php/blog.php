@@ -129,11 +129,10 @@ class BlogHomePage extends BlogPage {
   }
 
   function get_html() {
-    $result = ['<ul>'];
+    $result = [];
     foreach ($this->parent->get_posts(5) as $page) {
-      $result[] = '<li><a href="/' . $page->id . '">' . $page->get_title() . '</a></li>'; // TODO
+      $result[] = $page->get_html();
     }
-    $result[] = '</ul>';
     return implode("\n", $result);
   }
 }
