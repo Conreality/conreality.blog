@@ -1,7 +1,7 @@
 <?php
 define('BLOG_FILE_EXT', '.rst'); // reST
-//define('BLOG_RST2HTML', __DIR__ . '/../.python/bin/rst2html5.py');
-define('BLOG_RST2HTML', '/opt/homebrew/bin/rst2html5.py');
+define('BLOG_RST2HTML', __DIR__ . '/../.python/bin/rst2html5.py');
+//define('BLOG_RST2HTML', '/opt/homebrew/bin/rst2html5.py');
 
 class Blog {
   function __construct($path, $suffix = BLOG_FILE_EXT) {
@@ -164,7 +164,17 @@ class BlogParser {
     $command[] = escapeshellarg($page->get_pathname());
     $command = implode(' ', $command);
     $output = shell_exec($command);
-    //$output = BlogParser::expand_wikilinks($output);
+    $output = BlogParser::link_title($output, $page->id);
     return $output;
+  }
+
+  static function link_title($input, $page_id) {
+    return preg_replace_callback(
+      '|<h1>([^<]+)</h1>|',
+      function ($matches) use ($page_id) {
+        $title = $matches[1];
+        return "<a href=\"{$page_id}\"><h1>{$title}</h1></a>";
+      },
+      $input);
   }
 }
