@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/.php/blog.php';
+
 define('IS_LOCALHOST', strpos($_SERVER['HTTP_HOST'], 'localhost') === 0);
 
 // Enforce HTTPS in production:
@@ -8,12 +10,13 @@ if (!IS_LOCALHOST && empty($_SERVER['HTTPS'])) {
   return;
 }
 
-$page = (object)[
-  'mtime' => gmmktime(),
-  'title' => null,
-];
+// Parse the request path for the page ID:
+$matched = preg_match('|^/(\d{4}/\d{2}/[0-9A-Za-z-]+)$|', $_SERVER['REQUEST_URI'], $matches);
 
-header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->mtime) . ' GMT');
+$blog = new Blog(__DIR__);
+$page = $matched ? $blog->get_post($matches[1]) : $blog->get_page(substr($_SERVER['REQUEST_URI'], 1));
+
+header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->get_mtime()) . ' GMT');
 
 ?>
 <!DOCTYPE html>
@@ -24,6 +27,7 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->mtime) . ' GMT');
     <meta name="description" content="Conreality is a live-action augmented-reality, tactical wargame platform."/>
     <meta name="author" content="Conreality.org"/>
     <title><?php echo $page->title ? "{$page->title} &mdash; " : '' ?>Conreality Blog</title>
+    <base href="/"/>
     <link rel="icon" href="favicon.ico"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous"/>
@@ -40,7 +44,7 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->mtime) . ' GMT');
         <div id="navbar-content" class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <b><a class="nav-link" href="https://github.com/conreality/blog.conreality.org/commits/master"><?php echo gmdate('Y-m-d', $page->mtime) ?></a></b>
+              <b><a class="nav-link" href="https://github.com/conreality/blog.conreality.org/commits/master"><?php echo gmdate('Y-m-d', $page->get_mtime()) ?></a></b>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -54,16 +58,12 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->mtime) . ' GMT');
     <main role="main" class="container">
       <div class="row">
         <div id="content" role="article" class="col-md-9">
-          <div class="section">
-          <?php if ($page->title): ?>
-            <h1><?php echo $page->title ?></h1>
-          <?php endif ?>
-            <?php echo isset($page->html) ? $page->html : '' ?>
-          </div>
+          <?php echo isset($page->html) ? $page->html : $page->get_html() ?>
         </div>
         <div id="sidebar" role="tree" class="col-md-3">
           <div class="panel panel-default">
             <div class="panel-body">
+              <!-- sidebar goes here -->
             </div>
           </div>
         </div>
