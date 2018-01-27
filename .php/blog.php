@@ -67,6 +67,10 @@ class BlogPage {
     return time();
   }
 
+  function get_title() {
+    return $this->title;
+  }
+
   function get_html() {
     return BlogParser::render($this);
   }
@@ -101,6 +105,11 @@ class BlogPost extends BlogPage {
     return filemtime($this->get_pathname());
   }
 
+  function get_title() {
+    $lines = file($this->get_pathname());
+    return !empty($lines[1]) ? str_replace("\n", '', $lines[1]) : null;
+  }
+
   function get_body() {
     return file_get_contents($this->get_pathname());
   }
@@ -122,7 +131,7 @@ class BlogHomePage extends BlogPage {
   function get_html() {
     $result = ['<ul>'];
     foreach ($this->parent->get_posts(5) as $page) {
-      $result[] = '<li><a href="/' . $page->id . '">' . $page->title . '</a></li>'; // TODO
+      $result[] = '<li><a href="/' . $page->id . '">' . $page->get_title() . '</a></li>'; // TODO
     }
     $result[] = '</ul>';
     return implode("\n", $result);
@@ -141,7 +150,7 @@ class BlogErrorPage extends BlogPage {
   }
 
   function get_html() {
-    return '<h1>' . $this->title . '</h1>';
+    return '<h1>' . $this->get_title() . '</h1>';
   }
 }
 

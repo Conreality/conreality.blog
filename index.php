@@ -26,7 +26,7 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->get_mtime()) . ' GMT'
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description" content="Conreality is a live-action augmented-reality, tactical wargame platform."/>
     <meta name="author" content="Conreality.org"/>
-    <title><?php echo $page->title ? "{$page->title} &mdash; " : '' ?>Conreality Blog</title>
+    <title><?php echo $page->get_title() ? "{$page->get_title()} &mdash; " : '' ?>Conreality Blog</title>
     <base href="/"/>
     <link rel="icon" href="favicon.ico"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous"/>
