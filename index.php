@@ -11,7 +11,8 @@ if (!IS_LOCALHOST && empty($_SERVER['HTTPS'])) {
 }
 
 // Parse the request path for the page ID:
-$matched = preg_match('|^/(\d{4}/\d{2}/[0-9A-Za-z-]+)$|', $_SERVER['REQUEST_URI'], $matches);
+$matched = preg_match('|^/(\d{4}/\d{2}/[0-9A-Za-z-]+)$|', $_SERVER['REQUEST_URI'], $matches)
+        || preg_match('|^/(drafts/[0-9A-Za-z-]+)$|', $_SERVER['REQUEST_URI'], $matches);
 
 $blog = new Blog(__DIR__);
 $page = $matched ? $blog->get_post($matches[1]) : $blog->get_page(substr($_SERVER['REQUEST_URI'], 1));
