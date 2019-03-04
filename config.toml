@@ -1,3 +1,5 @@
 baseURL = "https://conreality.blog/"
 languageCode = "en-us"
 title = "Conreality Blog"
+theme = "bootstrap4-blog"
+copyright = " "
