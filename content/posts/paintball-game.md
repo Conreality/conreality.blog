@@ -26,8 +26,10 @@ Results were quite surprising - during one round our friend shot double the amou
 ![ProPaintball.sk arena](/images/2019/feb/bratislava/pp3.jpg "ProPaintball.sk arena overview")
  *ProPaintball.sk arena is located inside a former industrial zone in Bratislava, Slovakia.*
 
-Our thanks goes to the [ProPaintball.sk](https://www.propaintball.sk/ "ProPaintball.sk website") team for allowing us to test the Conreality Player at their site. We'll be visiting the site again for another game in March.
+Our thanks goes to the [ProPaintball.sk](https://www.propaintball.sk/ "ProPaintball.sk website") team for allowing us to test the Conreality Player at their site. We'll be visiting the site again in the future.
 
-The nightly build of Conreality Player is available [at this link](https://conreality.app/player.apk "Conreality Player App nightly build"). We have a WhatsApp Public Testing group as well, if you're interested in joining ask us on Twitter [here][3].
+The nightly build of Conreality Player is available [at this link](https://conreality.app/player.apk "Conreality Player App nightly build"). 
+
+We have a WhatsApp Public Testing group as well, if you're interested in joining ask us on Twitter [here][3].
 [3]: https://twitter.com/ConrealityGame
 
