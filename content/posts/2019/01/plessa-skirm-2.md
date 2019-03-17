@@ -2,6 +2,11 @@
 author: "Dan Komorny"
 title: "Conreality Player First Field Test"
 date: 2019-01-26T20:00:00+02:00
+categories:
+- Conreality Player
+tags:
+- Plessa
+- airsoft
 draft: false
 ---
 

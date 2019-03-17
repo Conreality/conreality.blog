@@ -2,6 +2,11 @@
 author: "Dan Komorny"
 title: "Testing The Core Concept In Intense CQB setting"
 date: 2019-02-16T20:00:00+02:00
+categories:
+- Conreality Player
+tags:
+- Bratislava
+- paintball
 draft: false
 ---
 
