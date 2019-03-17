@@ -13,7 +13,7 @@ copyright = " "
 
 [params]
   author = "Conreality Team"
-  description = "The official [Conreality](https://conreality.com) project blog."
+  description = "The official Conreality project blog."
   header_visible = true
   date_format = "Mon Jan 02, 2006"
   disable_sri = true
