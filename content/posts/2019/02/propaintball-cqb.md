@@ -7,6 +7,8 @@ categories:
 tags:
 - Bratislava
 - paintball
+images:
+- /2019/02/propaintball-cqb/pp1.jpg
 draft: false
 ---
 

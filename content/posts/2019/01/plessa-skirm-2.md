@@ -7,6 +7,8 @@ categories:
 tags:
 - Plessa
 - airsoft
+images:
+- /2019/01/plessa-skirm-2/plessa1.jpg
 draft: false
 ---
 
