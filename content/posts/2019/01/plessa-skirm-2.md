@@ -16,7 +16,7 @@ really coordinate with the rest of their own team if they don't __have
 radios equipped themselves__. The resulting experience has a lovely name in
 English - herding the cats.
 
-![Conreality Player screenshot](/images/2019/01/plessa/player-lobby.png "Conreality Player lobby screen")
+![Conreality Player screenshot](/2019/01/plessa-skirm-2/player-lobby.png "Conreality Player lobby screen")
 *Game lobby screen. From here you can join the game via QR code, IP address,
 or a game hosted on your local Wi-Fi network.*
 
@@ -27,7 +27,7 @@ The application will serve as your gateway to team up, coordinate and most
 importantly - effectively communicate with the other people in the __game__.
 The gamers will recognize these features from their favorite FPS games.
 
-![Conreality Player screenshot](/images/2019/01/plessa/player-menu.png "Conreality Player menu")
+![Conreality Player screenshot](/2019/01/plessa-skirm-2/player-menu.png "Conreality Player menu")
 *We're introducing the map and compass features in the first release.*
 
 The goal of this test was to observe GPS team monitoring in real-time. We've
@@ -37,13 +37,13 @@ Sheeps][1].
 
 [1]: http://www.drunkensheeps.com/
 
-![plessa1](/images/2019/01/plessa/plessa2.jpg "PlessaHQ")
+![plessa1](/2019/01/plessa-skirm-2/plessa2.jpg "PlessaHQ")
 *Team Drunken Sheeps headquarters at the Plessa village.*
 
-![plessa2](/images/2019/01/plessa/plessa1.jpg "Team")
+![plessa2](/2019/01/plessa-skirm-2/plessa1.jpg "Team")
 *The fun part of the software testing.*
 
-![Conreality Player screenshot](/images/2019/01/plessa/player-map.jpg "Conreality Player map screen")
+![Conreality Player screenshot](/2019/01/plessa-skirm-2/player-map.jpg "Conreality Player map screen")
 *Initial version of the map screen.*
 
 Watch our blog for the new features and application updates. Let's herd the

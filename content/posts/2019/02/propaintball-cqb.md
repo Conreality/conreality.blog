@@ -19,7 +19,7 @@ to radically improvise.
 [1]: https://www.artofmanliness.com/articles/ooda-loop/
 [2]: http://localhost:1313/posts/plessa-skirm-nr2
 
- ![Conreality Player screenshot](/images/2019/02/bratislava/player-chat.png "Conreality Player chat screen")
+ ![Conreality Player screenshot](/2019/02/propaintball-cqb/player-chat.png "Conreality Player chat screen")
  *More fun to yell these at people in a voice chat instead of typing down frantically on a smartphone keyboard.*
 
 We gave a Bluetooth earbud connected to a spare phone with the application
@@ -28,7 +28,7 @@ the safe zone outside, and with a texting speed of a teenage girl going
 through social media drama typed down enemy positions to our friend playing
 inside.
 
-![ProPaintball.sk arena](/images/2019/02/bratislava/pp1.jpg "ProPaintball.sk arena overview")
+![ProPaintball.sk arena](/2019/02/propaintball-cqb/pp1.jpg "ProPaintball.sk arena overview")
  *The ProPaintball.sk arena*
 
 Results were quite surprising - during one round our friend shot double the
@@ -37,7 +37,7 @@ awareness. This was achieved just with the Text-To-Speech commands coming
 live with a slight delay (just some growing pains, ouch) into the player's
 ear.
 
-![ProPaintball.sk arena](/images/2019/02/bratislava/pp3.jpg "ProPaintball.sk arena overview")
+![ProPaintball.sk arena](/2019/02/propaintball-cqb/pp3.jpg "ProPaintball.sk arena overview")
  *ProPaintball.sk arena is located inside a former industrial zone in Bratislava, Slovakia.*
 
 Our thanks goes to the [ProPaintball.sk](https://www.propaintball.sk/
