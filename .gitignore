@@ -3,3 +3,6 @@
 
 # Editor backup files
 *~
+
+# Hugo build directory
+public/
