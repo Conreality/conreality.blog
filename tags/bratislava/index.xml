@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bratislava on Conreality Blog</title>
+    <link>https://conreality.blog/tags/bratislava/</link>
+    <description>Recent content in Bratislava on Conreality Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> </copyright>
+    <lastBuildDate>Sat, 16 Feb 2019 20:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://conreality.blog/tags/bratislava/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing The Core Concept In Intense CQB setting</title>
+      <link>https://conreality.blog/2019/02/propaintball-cqb/</link>
+      <pubDate>Sat, 16 Feb 2019 20:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/2019/02/propaintball-cqb/</guid>
+      <description>&lt;blockquote&gt;
+&lt;h5 id=&#34;he-who-can-handle-the-quickest-rate-of-change-survives&#34;&gt;“He who can handle the quickest rate of change survives.”&lt;/h5&gt;
+
+&lt;h6 id=&#34;lt-colonel-john-boyd&#34;&gt;– Lt. Colonel John Boyd&lt;/h6&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The core feature of the Player application is to enable you to react faster
+to rapidly changing conditions on the war-gaming field. Military pros worth
+their analytical salt call this concept &amp;lsquo;shortening of the OODA loop&amp;rsquo; (more
+on the concept &lt;a href=&#34;https://www.artofmanliness.com/articles/ooda-loop/&#34;&gt;here&lt;/a&gt;). After trying the application out for the first
+time in &lt;a href=&#34;http://localhost:1313/posts/plessa-skirm-nr2&#34;&gt;Germany&lt;/a&gt;, we wanted to test a more direct form of communication.
+At the time the voice comms via Bluetooth weren&amp;rsquo;t implemented yet, so we had
+to radically improvise.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

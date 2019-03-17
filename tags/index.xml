@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Conreality Blog</title>
+    <link>https://conreality.blog/tags/</link>
+    <description>Recent content in Tags on Conreality Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> </copyright>
+    <lastBuildDate>Sat, 26 Jan 2019 20:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://conreality.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Airsoft</title>
+      <link>https://conreality.blog/tags/airsoft/</link>
+      <pubDate>Sat, 26 Jan 2019 20:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/tags/airsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bratislava</title>
+      <link>https://conreality.blog/tags/bratislava/</link>
+      <pubDate>Sat, 16 Feb 2019 20:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/tags/bratislava/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paintball</title>
+      <link>https://conreality.blog/tags/paintball/</link>
+      <pubDate>Sat, 16 Feb 2019 20:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/tags/paintball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plessa</title>
+      <link>https://conreality.blog/tags/plessa/</link>
+      <pubDate>Sat, 26 Jan 2019 20:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/tags/plessa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
