@@ -21,6 +21,8 @@ really coordinate with the rest of their own team if they don't __have
 radios equipped themselves__. The resulting experience has a lovely name in
 English - herding the cats.
 
+<!--more-->
+
 ![Conreality Player screenshot](/2019/01/plessa-skirm-2/player-lobby.png "Conreality Player lobby screen")
 *Game lobby screen. From here you can join the game via QR code, IP address,
 or a game hosted on your local Wi-Fi network.*

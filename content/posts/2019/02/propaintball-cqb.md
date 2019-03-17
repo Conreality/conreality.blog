@@ -24,6 +24,8 @@ to radically improvise.
 [1]: https://www.artofmanliness.com/articles/ooda-loop/
 [2]: http://localhost:1313/posts/plessa-skirm-nr2
 
+<!--more-->
+
  ![Conreality Player screenshot](/2019/02/propaintball-cqb/player-chat.png "Conreality Player chat screen")
  *More fun to yell these at people in a voice chat instead of typing down frantically on a smartphone keyboard.*
 
