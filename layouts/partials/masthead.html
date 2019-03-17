@@ -1,18 +1,55 @@
     <div class="blog-masthead">
       <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link"
-             href="{{ .Site.BaseURL | absLangURL }}"
-             style="padding-left: 0">
-            <img src="/media/icons/48x48.png" width="24" height="24" alt="Conreality Blog"/>
-            &nbsp;Conreality Blog
-          </a>
-          <a class="nav-link {{ if .IsHome }}active{{ end }}" href="{{ .Site.BaseURL | absLangURL }}">{{ i18n "home" }}</a>
-          {{- $currentPage := . -}}
-          {{ range .Site.Menus.navbar }}
-          {{ $menuURL := .URL | absLangURL }}
-          <a class="nav-link{{ if or ($currentPage.IsMenuCurrent "navbar" .) ($currentPage.HasMenuCurrent "navbar" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-          {{ end }}
+        <nav class="nav">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link"
+                 href="{{ .Site.BaseURL | absLangURL }}"
+                 style="padding-left: 0">
+                <img src="/media/icons/48x48.png" width="24" height="24" alt="Conreality Blog"/>
+                &nbsp;Conreality Blog
+              </a>
+            </li>
+          {{/*
+            <li class="nav-item">
+              <a class="nav-link {{ if .IsHome }}active{{ end }}" href="{{ .Site.BaseURL | absLangURL }}">{{ i18n "home" }}</a>
+            </li>
+            {{- $currentPage := . -}}
+            {{ range .Site.Menus.navbar }}
+            {{ $menuURL := .URL | absLangURL }}
+            <li class="nav-item">
+              <a class="nav-link{{ if or ($currentPage.IsMenuCurrent "navbar" .) ($currentPage.HasMenuCurrent "navbar" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          */}}
+          </ul>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/ConrealityGame" style="padding: 1rem 2px">
+                <span class="mdi mdi-twitter-box"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://facebook.com/Conreality" style="padding: 1rem 2px">
+                <span class="mdi mdi-facebook-box"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://instagram.com/Conreality" style="padding: 1rem 2px">
+                <span class="mdi mdi-instagram"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://linkedin.com/company/Conreality" style="padding: 1rem 2px">
+                <span class="mdi mdi-linkedin-box"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Conreality" style="padding: 1rem 2px">
+                <span class="mdi mdi-github-circle"></span>
+              </a>
+            </li>
+          </ul>
         </nav>
       </div>
     </div>
