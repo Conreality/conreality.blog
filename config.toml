@@ -7,6 +7,10 @@ theme = "bootstrap4-blog"
 paginate = 5
 copyright = " "
 
+[taxonomies]
+  category = "products"
+  tag = "tags"
+
 [permalinks]
   posts = "/:year/:month/:filename"
   page = "/:filename"
