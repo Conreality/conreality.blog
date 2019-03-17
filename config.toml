@@ -1,5 +1,26 @@
+# See: https://github.com/alanorth/hugo-theme-bootstrap4-blog/blob/master/exampleSite/config.toml
+
 baseURL = "https://conreality.blog/"
 languageCode = "en-us"
 title = "Conreality Blog"
 theme = "bootstrap4-blog"
+paginate = 5
 copyright = " "
+
+[permalinks]
+  posts = "/:year/:month/:title"
+  page = "/:filename"
+
+[params]
+  author = "Conreality Team"
+  description = "The official Conreality project blog."
+  header_visible = true
+  date_format = "Mon Jan 02, 2006"
+  disable_sri = true
+
+[params.sidebar]
+  about = "Conreality is an augmented reality live-action wargame platform currently in development."
+  num_recent_posts = 5
+
+[params.social]
+  twitter = "ConrealityGame"
