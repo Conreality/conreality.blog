@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> </copyright>
-    <lastBuildDate>Sat, 26 Jan 2019 20:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 16 Feb 2019 20:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://conreality.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Airsoft</title>
-      <link>https://conreality.blog/tags/airsoft/</link>
-      <pubDate>Sat, 26 Jan 2019 20:00:00 +0200</pubDate>
-      
-      <guid>https://conreality.blog/tags/airsoft/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Bratislava</title>
@@ -31,11 +22,20 @@
     </item>
     
     <item>
-      <title>Paintball</title>
+      <title>paintball</title>
       <link>https://conreality.blog/tags/paintball/</link>
       <pubDate>Sat, 16 Feb 2019 20:00:00 +0200</pubDate>
       
       <guid>https://conreality.blog/tags/paintball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>airsoft</title>
+      <link>https://conreality.blog/tags/airsoft/</link>
+      <pubDate>Sat, 26 Jan 2019 20:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/tags/airsoft/</guid>
       <description></description>
     </item>
     
