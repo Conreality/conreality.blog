@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> </copyright>
-    <lastBuildDate>Sat, 16 Feb 2019 20:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2019 10:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://conreality.blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>First Flight</title>
+      <link>https://conreality.blog/2019/10/first-flight/</link>
+      <pubDate>Mon, 21 Oct 2019 10:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/2019/10/first-flight/</guid>
+      <description>Team Conreality just wrapped up a fruitful visit to Kyiv, testing and bringing home our new XXL-sized paintball drone built in collaboration with our friends at Drone.UA:
+ Needless to say, we attracted quite a crowd of spectators while field testing the drone outside the Drone.UA offices. Not only did neighbors leave their offices to come say hello, but even people driving by stopped and parked to come meet us.</description>
+    </item>
     
     <item>
       <title>Testing The Core Concept In Intense CQB setting</title>

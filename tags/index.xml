@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> </copyright>
-    <lastBuildDate>Sat, 16 Feb 2019 20:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2019 10:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://conreality.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kyiv</title>
+      <link>https://conreality.blog/tags/kyiv/</link>
+      <pubDate>Mon, 21 Oct 2019 10:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/tags/kyiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paintball</title>
+      <link>https://conreality.blog/tags/paintball/</link>
+      <pubDate>Mon, 21 Oct 2019 10:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/tags/paintball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paintball drone</title>
+      <link>https://conreality.blog/tags/paintball-drone/</link>
+      <pubDate>Mon, 21 Oct 2019 10:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/tags/paintball-drone/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bratislava</title>
@@ -18,15 +45,6 @@
       <pubDate>Sat, 16 Feb 2019 20:00:00 +0200</pubDate>
       
       <guid>https://conreality.blog/tags/bratislava/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paintball</title>
-      <link>https://conreality.blog/tags/paintball/</link>
-      <pubDate>Sat, 16 Feb 2019 20:00:00 +0200</pubDate>
-      
-      <guid>https://conreality.blog/tags/paintball/</guid>
       <description></description>
     </item>
     

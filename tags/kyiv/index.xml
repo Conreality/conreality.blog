@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kyiv on Conreality Blog</title>
+    <link>https://conreality.blog/tags/kyiv/</link>
+    <description>Recent content in Kyiv on Conreality Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> </copyright>
+    <lastBuildDate>Mon, 21 Oct 2019 10:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://conreality.blog/tags/kyiv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Flight</title>
+      <link>https://conreality.blog/2019/10/first-flight/</link>
+      <pubDate>Mon, 21 Oct 2019 10:00:00 +0200</pubDate>
+      
+      <guid>https://conreality.blog/2019/10/first-flight/</guid>
+      <description>Team Conreality just wrapped up a fruitful visit to Kyiv, testing and bringing home our new XXL-sized paintball drone built in collaboration with our friends at Drone.UA:
+ Needless to say, we attracted quite a crowd of spectators while field testing the drone outside the Drone.UA offices. Not only did neighbors leave their offices to come say hello, but even people driving by stopped and parked to come meet us.</description>
+    </item>
+    
+  </channel>
+</rss>
