@@ -32,3 +32,5 @@ We still have some more work to do on more precisely balancing the payload in th
 The [full photo album](https://www.facebook.com/pg/conreality/photos/?tab=album&album_id=2451125641839633) from our first flight is available on [our Facebook page](https://facebook.com/conreality), and the [video](https://www.youtube.com/watch?v=nnJPntLH4mA) is on [our YouTube channel](https://www.youtube.com/channel/UCr3AK-eGQ2lgSE4Ew729nWQ). More to follow as we put our new drone through its paces!
 
 <a href="https://www.facebook.com/conreality/photos/a.2451125641839633/2451127471839450/"><img src="/2019/10/first-flight/dsc_6618.jpg" width="700" alt="Team Conreality taking the drone back home" title="Team Conreality taking the drone back home"/></a>
+
+<!--more-->
