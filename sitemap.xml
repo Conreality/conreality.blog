@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -38,38 +38,7 @@
   </url>
   
   <url>
-    <loc>https://conreality.blog/tags/bratislava/</loc>
-    <lastmod>2019-02-16T20:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://conreality.blog/products/conreality-player/</loc>
-    <lastmod>2019-02-16T20:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://conreality.blog/products/</loc>
-    <lastmod>2019-02-16T20:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://conreality.blog/2019/02/propaintball-cqb/</loc>
-    <lastmod>2019-02-16T20:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://conreality.blog/tags/airsoft/</loc>
-    <lastmod>2019-01-26T20:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://conreality.blog/2019/01/plessa-skirm-2/</loc>
-    <lastmod>2019-01-26T20:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://conreality.blog/tags/plessa/</loc>
-    <lastmod>2019-01-26T20:00:00+02:00</lastmod>
   </url>
   
 </urlset>
