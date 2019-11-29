@@ -9,7 +9,7 @@ tags:
 - paintball
 images:
 - /2019/02/propaintball-cqb/pp1.jpg
-draft: false
+draft: true
 ---
 
 > ##### “He who can handle the quickest rate of change survives.”
